@@ -1,0 +1,17 @@
+{
+  "name": "@tellae/html2pdf",
+  "version": "1.0.0",
+  "description": "Convert HTML to PDF",
+  "bin": "html2pdf.js",
+  "main": "html2pdf.js",
+  "files": [
+    "html2pdf.js"
+  ],
+  "repository": "https://github.com/tellae/html2pdf.git",
+  "author": "Vincent Leblond <vleblond@tellae.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  },
+  "private": false
+}

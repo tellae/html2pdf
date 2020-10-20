@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const path = require("path");
 const puppeteer = require("puppeteer");
 const fs = require("fs");
@@ -6,7 +7,7 @@ const args = process.argv;
 
 if(args.length != 4) {
   console.log("Path error")
-  console.log("Usage: node hn.js inputdir outputdir")
+  console.log("Usage: html2pdf inputdir outputdir")
 } else {
   const dirpath = path.resolve(args[2]);
   const outpath = path.resolve(args[3]);
